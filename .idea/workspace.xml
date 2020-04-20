@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b122f01-5772-4e55-bc82-5f14a88a6914" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +23,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -47,7 +42,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -85,12 +80,14 @@
       <workItem from="1586908691907" duration="6454000" />
       <workItem from="1586955861497" duration="5327000" />
       <workItem from="1587046531377" duration="11000" />
-      <workItem from="1587140501978" duration="8910000" />
+      <workItem from="1587140501978" duration="14580000" />
+      <workItem from="1587390166224" duration="56000" />
+      <workItem from="1587390300576" duration="546000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -102,36 +99,44 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="95" key="#ESLint" timestamp="1586909249622">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="320" y="95" key="#ESLint/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1586909249622" />
-    <state x="308" y="177" key="IDE.errors.dialog" timestamp="1587146271266">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="408" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587390206189">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
+    <state x="408" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.811/1440.23.1366.745@0.23.1440.811" timestamp="1587390206189" />
+    <state x="308" y="165" key="IDE.errors.dialog" timestamp="1587387989000">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="308" y="165" key="IDE.errors.dialog/0.23.1440.809/1440.23.1366.745@0.23.1440.809" timestamp="1587387989000" />
     <state x="308" y="177" key="IDE.errors.dialog/0.23.1440.877/1440.23.1366.679@0.23.1440.877" timestamp="1587146271266" />
-    <state x="221" y="69" key="SettingsEditor" timestamp="1586909285126">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="248" y="62" key="SettingsEditor" timestamp="1587390544779">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
+    <state x="248" y="62" key="SettingsEditor/0.23.1440.809/1440.23.1366.745@0.23.1440.809" timestamp="1587390544779" />
     <state x="221" y="69" key="SettingsEditor/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1586909285126" />
     <state x="378" y="187" width="683" height="486" key="find.popup" timestamp="1586909071657">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="378" y="187" width="683" height="486" key="find.popup/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1586909071657" />
-    <state x="97" y="154" key="new project wizard" timestamp="1586981800681">
+    <state x="97" y="154" width="1246" height="561" key="new project wizard" timestamp="1587224036224">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state x="97" y="154" key="new project wizard/0.23.1440.809/1440.23.1366.745@0.23.1440.809" timestamp="1586981800681" />
+    <state x="97" y="154" width="1246" height="561" key="new project wizard/0.23.1440.809/1440.23.1366.745@0.23.1440.809" timestamp="1587224036224" />
     <state x="97" y="155" key="new project wizard/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1586913986258" />
     <state x="369" y="153" width="700" height="530" key="recent.locations.popup" timestamp="1586909157451">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="369" y="153" width="700" height="530" key="recent.locations.popup/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1586909157451" />
-    <state x="385" y="161" width="670" height="676" key="search.everywhere.popup" timestamp="1586909279319">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="385" y="160" width="670" height="672" key="search.everywhere.popup" timestamp="1587390539088">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
+    <state x="385" y="160" width="670" height="672" key="search.everywhere.popup/0.23.1440.809/1440.23.1366.745@0.23.1440.809" timestamp="1587390539088" />
     <state x="385" y="161" width="670" height="676" key="search.everywhere.popup/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1586909279319" />
   </component>
 </project>
