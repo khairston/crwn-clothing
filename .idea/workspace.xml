@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b122f01-5772-4e55-bc82-5f14a88a6914" name="Default Changelist" comment="" />
+    <list default="true" id="2b122f01-5772-4e55-bc82-5f14a88a6914" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -35,7 +52,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -75,7 +92,8 @@
       <workItem from="1587046531377" duration="11000" />
       <workItem from="1587140501978" duration="14580000" />
       <workItem from="1587390166224" duration="56000" />
-      <workItem from="1587390300576" duration="922000" />
+      <workItem from="1587390300576" duration="1549000" />
+      <workItem from="1587471292474" duration="4918000" />
     </task>
     <servers />
   </component>
@@ -103,15 +121,20 @@
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="408" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.811/1440.23.1366.745@0.23.1440.811" timestamp="1587390206189" />
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1587471722658">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1587471722658" />
     <state x="308" y="165" key="IDE.errors.dialog" timestamp="1587387989000">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="308" y="165" key="IDE.errors.dialog/0.23.1440.809/1440.23.1366.745@0.23.1440.809" timestamp="1587387989000" />
     <state x="308" y="177" key="IDE.errors.dialog/0.23.1440.877/1440.23.1366.679@0.23.1440.877" timestamp="1587146271266" />
-    <state x="248" y="62" key="SettingsEditor" timestamp="1587390544779">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state x="248" y="62" key="SettingsEditor" timestamp="1587473673740">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="248" y="62" key="SettingsEditor/0.23.1440.809/1440.23.1366.745@0.23.1440.809" timestamp="1587390544779" />
+    <state x="248" y="62" key="SettingsEditor/0.23.1440.811/1440.23.1366.745@0.23.1440.811" timestamp="1587473673740" />
     <state x="221" y="69" key="SettingsEditor/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1586909285126" />
     <state x="378" y="187" width="683" height="486" key="find.popup" timestamp="1586909071657">
       <screen x="0" y="23" width="1440" height="814" />
@@ -126,10 +149,12 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="369" y="153" width="700" height="530" key="recent.locations.popup/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1586909157451" />
-    <state x="385" y="160" width="670" height="672" key="search.everywhere.popup" timestamp="1587390539088">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state x="385" y="161" width="670" height="675" key="search.everywhere.popup" timestamp="1587473663560">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="385" y="160" width="670" height="672" key="search.everywhere.popup/0.23.1440.809/1440.23.1366.745@0.23.1440.809" timestamp="1587390539088" />
+    <state x="385" y="161" width="670" height="675" key="search.everywhere.popup/0.23.1440.811/1440.23.1366.745@0.23.1440.811" timestamp="1587473663560" />
+    <state x="385" y="161" width="670" height="675" key="search.everywhere.popup/0.23.1440.812/1440.23.1366.745@0.23.1440.812" timestamp="1587473423353" />
     <state x="385" y="161" width="670" height="676" key="search.everywhere.popup/0.23.1440.814/1440.23.1366.745@0.23.1440.814" timestamp="1586909279319" />
   </component>
 </project>
